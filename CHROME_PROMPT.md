@@ -26,6 +26,7 @@ the repositories and sets their details; pushing the code is done afterwards fro
 > | sudoo-status | Private | status.sudoo.sh: uptime and certificate checks of every Sudoo.sh property, with Gatus. | https://status.sudoo.sh | sudoo, status-page, gatus, monitoring |
 > | sudoo-plugin-sdk | Public | SDK and CLI for building Sudoo.sh plugins: manifest types, base classes, test harness, packing. | https://docs.sudoo.sh | sudoo, plugins, sdk, python |
 > | sudoo-plugin-template | Public | Start a Sudoo.sh plugin: a working example, CI, and a release workflow for the marketplace. | https://developers.sudoo.sh | sudoo, plugins, template |
+> | sudoo-installer | Private | Private: the Sudoo.sh installer (sudoo-install.sh), its tests, and the script that checks and attaches it to each release. | (none) | sudoo, installer, bash |
 > | sudoo-plugins | Private | The official Sudoo.sh plugins (mailer, second factors, tunnels, API, MCP, themes), one folder each. | https://marketplace.sudoo.sh | sudoo, odoo, plugins |
 >
 > **B. For every repository in the table** (also the existing ones), open Settings:
@@ -54,7 +55,7 @@ the repositories and sets their details; pushing the code is done afterwards fro
 > **D. Teams** (github.com/orgs/Sudoo-sh/teams → New team; visibility Visible, no parent team). I stay the only
 > organization owner; do not add anyone as owner or as a member. Create:
 > - **core-devs** ("Developers of the panel, the hub and the infrastructure") with **Write** on sudoo.sh, sudoo-hub,
->   sudoo-cluster, sudoo-status
+>   sudoo-cluster, sudoo-status, sudoo-installer
 > - **web-devs** ("Developers of the websites and web apps") with **Write** on sudoo-website, sudoo-docs,
 >   sudoo-marketplace, sudoo-developers, sudoo-account
 > - **plugin-devs** ("Developers of the plugin SDK, the template and the official plugins") with **Write** on

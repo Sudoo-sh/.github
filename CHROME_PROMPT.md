@@ -24,8 +24,8 @@ the repositories and sets their details; pushing the code is done afterwards fro
 > | sudoo-hub | Private | hub.sudoo.sh: accounts, panel registration and heartbeats, licences, signed plugin catalogue. FastAPI. | https://hub.sudoo.sh | sudoo, odoo, fastapi, postgresql, redis, ed25519, licensing |
 > | sudoo-cluster | Private | Docker Compose, Nginx and Certbot stack that hosts every *.sudoo.sh property on one server. | (none) | sudoo, docker-compose, nginx, certbot, infrastructure |
 > | sudoo-status | Private | status.sudoo.sh: uptime and certificate checks of every Sudoo.sh property, with Gatus. | https://status.sudoo.sh | sudoo, status-page, gatus, monitoring |
-> | sudoo-plugin-sdk | Private | SDK and CLI for building Sudoo.sh plugins: manifest types, base classes, test harness, packing. | https://docs.sudoo.sh | sudoo, plugins, sdk, python |
-> | sudoo-plugin-template | Private | Start a Sudoo.sh plugin: a working example, CI, and a release workflow for the marketplace. | https://developers.sudoo.sh | sudoo, plugins, template |
+> | sudoo-plugin-sdk | Public | SDK and CLI for building Sudoo.sh plugins: manifest types, base classes, test harness, packing. | https://docs.sudoo.sh | sudoo, plugins, sdk, python |
+> | sudoo-plugin-template | Public | Start a Sudoo.sh plugin: a working example, CI, and a release workflow for the marketplace. | https://developers.sudoo.sh | sudoo, plugins, template |
 > | sudoo-plugins | Private | The official Sudoo.sh plugins (mailer, second factors, tunnels, API, MCP, themes), one folder each. | https://marketplace.sudoo.sh | sudoo, odoo, plugins |
 >
 > **B. For every repository in the table** (also the existing ones), open Settings:

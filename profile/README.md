@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://sudoo.sh"><img src="mark-animated.svg" alt="Sudoo.sh" width="88" height="88"></a>
+  <a href="https://sudoo.sh"><picture><source media="(prefers-color-scheme: dark)" srcset="mark-animated-dark.svg"><img src="mark-animated.svg" alt="Sudoo.sh" width="88" height="88"></picture></a>
 </p>
 
 <p align="center"><b>A self-hosted Odoo.sh alternative: every Odoo branch, running on your own server.</b></p>

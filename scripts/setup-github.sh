@@ -42,6 +42,7 @@ REPOS=(
   "sudoo-status|sudoo-status|private|https://status.sudoo.sh|status.sudoo.sh: uptime and certificate checks of every Sudoo.sh property, with Gatus.|sudoo,status-page,gatus,monitoring"
   "sudoo-plugin-sdk|sudoo-plugin-sdk|public|https://docs.sudoo.sh|SDK and CLI for building Sudoo.sh plugins: manifest types, base classes, test harness, packing.|sudoo,plugins,sdk,python"
   "sudoo-plugin-template|sudoo-plugin-template|public|https://developers.sudoo.sh|Start a Sudoo.sh plugin: a working example, CI, and a release workflow for the marketplace.|sudoo,plugins,template"
+  "sudoo-installer|sudoo-installer|private||Private: the Sudoo.sh installer (sudoo-install.sh), its tests, and the script that checks and attaches it to each release.|sudoo,installer,bash"
   "sudoo-plugins|sudoo-plugins|private|https://marketplace.sudoo.sh|The official Sudoo.sh plugins (mailer, second factors, tunnels, API, MCP, themes), one folder each.|sudoo,odoo,plugins"
 )
 
@@ -61,7 +62,7 @@ LABELS=(
 # Teams: the owner is the only organization admin; developers get write access to their own repositories only.
 # team|description|repositories (comma-separated)
 TEAMS=(
-  "core-devs|Developers of the panel, the hub and the infrastructure|sudoo.sh,sudoo-hub,sudoo-cluster,sudoo-status"
+  "core-devs|Developers of the panel, the hub and the infrastructure|sudoo.sh,sudoo-hub,sudoo-cluster,sudoo-status,sudoo-installer"
   "web-devs|Developers of the websites and web apps|sudoo-website,sudoo-docs,sudoo-marketplace,sudoo-developers,sudoo-account"
   "plugin-devs|Developers of the plugin SDK, the template and the official plugins|sudoo-plugin-sdk,sudoo-plugin-template,sudoo-plugins"
 )

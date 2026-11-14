@@ -40,8 +40,8 @@ REPOS=(
   "sudoo-hub|sudoo-hub|private|https://hub.sudoo.sh|hub.sudoo.sh: accounts, panel registration and heartbeats, licences, signed plugin catalogue. FastAPI.|sudoo,odoo,fastapi,postgresql,redis,ed25519,licensing"
   "sudoo-cluster|sudoo-cluster|private||Docker Compose, Nginx and Certbot stack that hosts every *.sudoo.sh property on one server.|sudoo,docker-compose,nginx,certbot,infrastructure"
   "sudoo-status|sudoo-status|private|https://status.sudoo.sh|status.sudoo.sh: uptime and certificate checks of every Sudoo.sh property, with Gatus.|sudoo,status-page,gatus,monitoring"
-  "sudoo-plugin-sdk|sudoo-plugin-sdk|private|https://docs.sudoo.sh|SDK and CLI for building Sudoo.sh plugins: manifest types, base classes, test harness, packing.|sudoo,plugins,sdk,python"
-  "sudoo-plugin-template|sudoo-plugin-template|private|https://developers.sudoo.sh|Start a Sudoo.sh plugin: a working example, CI, and a release workflow for the marketplace.|sudoo,plugins,template"
+  "sudoo-plugin-sdk|sudoo-plugin-sdk|public|https://docs.sudoo.sh|SDK and CLI for building Sudoo.sh plugins: manifest types, base classes, test harness, packing.|sudoo,plugins,sdk,python"
+  "sudoo-plugin-template|sudoo-plugin-template|public|https://developers.sudoo.sh|Start a Sudoo.sh plugin: a working example, CI, and a release workflow for the marketplace.|sudoo,plugins,template"
   "sudoo-plugins|sudoo-plugins|private|https://marketplace.sudoo.sh|The official Sudoo.sh plugins (mailer, second factors, tunnels, API, MCP, themes), one folder each.|sudoo,odoo,plugins"
 )
 

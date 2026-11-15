@@ -37,6 +37,7 @@ REPOS=(
   "sudoo-marketplace|sudoo-marketplace|private|https://marketplace.sudoo.sh|marketplace.sudoo.sh: the catalogue of signed plugins for Sudoo.sh. Next.js.|sudoo,odoo,marketplace,plugins,nextjs"
   "sudoo-developers|sudoo-developers|private|https://developers.sudoo.sh|developers.sudoo.sh: publish plugins, follow analytics and payouts. Next.js.|sudoo,odoo,developer-portal,plugins,nextjs"
   "sudoo-account|sudoo-account|private|https://app.sudoo.sh|app.sudoo.sh: servers, licences, plugins, billing and team of a Sudoo.sh account. Next.js.|sudoo,odoo,dashboard,billing,nextjs"
+  "sudoo-admin|sudoo-admin|private|https://admin.sudoo.sh|admin.sudoo.sh: the staff console: review desk and rules, dashboards, support, finance, staff. Next.js.|sudoo,admin,dashboard,review,nextjs"
   "sudoo-hub|sudoo-hub|private|https://hub.sudoo.sh|hub.sudoo.sh: accounts, panel registration and heartbeats, licences, signed plugin catalogue. FastAPI.|sudoo,odoo,fastapi,postgresql,redis,ed25519,licensing"
   "sudoo-cluster|sudoo-cluster|private||Docker Compose, Nginx and Certbot stack that hosts every *.sudoo.sh property on one server.|sudoo,docker-compose,nginx,certbot,infrastructure"
   "sudoo-status|sudoo-status|private|https://status.sudoo.sh|status.sudoo.sh: uptime and certificate checks of every Sudoo.sh property, with Gatus.|sudoo,status-page,gatus,monitoring"
@@ -63,7 +64,7 @@ LABELS=(
 # team|description|repositories (comma-separated)
 TEAMS=(
   "core-devs|Developers of the panel, the hub and the infrastructure|sudoo.sh,sudoo-hub,sudoo-cluster,sudoo-status,sudoo-installer"
-  "web-devs|Developers of the websites and web apps|sudoo-website,sudoo-docs,sudoo-marketplace,sudoo-developers,sudoo-account"
+  "web-devs|Developers of the websites and web apps|sudoo-website,sudoo-docs,sudoo-marketplace,sudoo-developers,sudoo-account,sudoo-admin"
   "plugin-devs|Developers of the plugin SDK, the template and the official plugins|sudoo-plugin-sdk,sudoo-plugin-template,sudoo-plugins"
 )
 

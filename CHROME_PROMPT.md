@@ -21,6 +21,7 @@ the repositories and sets their details; pushing the code is done afterwards fro
 > | sudoo-marketplace | Private | marketplace.sudoo.sh: the catalogue of signed plugins for Sudoo.sh. Next.js. | https://marketplace.sudoo.sh | sudoo, odoo, marketplace, plugins, nextjs |
 > | sudoo-developers | Private | developers.sudoo.sh: publish plugins, follow analytics and payouts. Next.js. | https://developers.sudoo.sh | sudoo, odoo, developer-portal, plugins, nextjs |
 > | sudoo-account | Private | app.sudoo.sh: servers, licences, plugins, billing and team of a Sudoo.sh account. Next.js. | https://app.sudoo.sh | sudoo, odoo, dashboard, billing, nextjs |
+> | sudoo-admin | Private | admin.sudoo.sh: the staff console: review desk and rules, dashboards, support, finance, staff. Next.js. | https://admin.sudoo.sh | sudoo, admin, dashboard, review, nextjs |
 > | sudoo-hub | Private | hub.sudoo.sh: accounts, panel registration and heartbeats, licences, signed plugin catalogue. FastAPI. | https://hub.sudoo.sh | sudoo, odoo, fastapi, postgresql, redis, ed25519, licensing |
 > | sudoo-cluster | Private | Docker Compose, Nginx and Certbot stack that hosts every *.sudoo.sh property on one server. | (none) | sudoo, docker-compose, nginx, certbot, infrastructure |
 > | sudoo-status | Private | status.sudoo.sh: uptime and certificate checks of every Sudoo.sh property, with Gatus. | https://status.sudoo.sh | sudoo, status-page, gatus, monitoring |
@@ -57,7 +58,7 @@ the repositories and sets their details; pushing the code is done afterwards fro
 > - **core-devs** ("Developers of the panel, the hub and the infrastructure") with **Write** on sudoo.sh, sudoo-hub,
 >   sudoo-cluster, sudoo-status, sudoo-installer
 > - **web-devs** ("Developers of the websites and web apps") with **Write** on sudoo-website, sudoo-docs,
->   sudoo-marketplace, sudoo-developers, sudoo-account
+>   sudoo-marketplace, sudoo-developers, sudoo-account, sudoo-admin
 > - **plugin-devs** ("Developers of the plugin SDK, the template and the official plugins") with **Write** on
 >   sudoo-plugin-sdk, sudoo-plugin-template, sudoo-plugins
 > (Team → Repositories → Add repository → choose the role Write.)

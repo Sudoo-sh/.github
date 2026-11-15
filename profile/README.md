@@ -1,23 +1,66 @@
 <p align="center">
-  <a href="https://sudoo.sh"><picture><source media="(prefers-color-scheme: dark)" srcset="mark-animated-dark.svg"><img src="mark-animated.svg" alt="Sudoo.sh" width="88" height="88"></picture></a>
+  <a href="https://github.com/Sudoo-sh/sudoo.sh"><picture><source media="(prefers-color-scheme: dark)" srcset="mark-animated-dark.svg"><img src="mark-animated.svg" alt="Sudoo.sh" width="88" height="88"></picture></a>
 </p>
 
-<p align="center"><b>A self-hosted Odoo.sh alternative: every Odoo branch, running on your own server.</b></p>
+<h3 align="center">Every Odoo environment your team needs, on one server you own.</h3>
 
-Sudoo.sh turns each branch of a repository into a running Odoo with its own https link in about two minutes. Any
-Odoo version from 16.0, Community or Enterprise. It updates on every push, pauses when nobody uses it, keeps a daily
-backup with one-click restore, and has five roles and second factors for the people who manage it.
+<p align="center">
+Demos, test branches, training and customer previews: each one a running Odoo with its own HTTPS link,<br>
+for the price of your server instead of a bill per environment.
+</p>
 
-Install on Ubuntu or Debian with one command:
+<p align="center">
+  <a href="https://github.com/Sudoo-sh/sudoo.sh#quick-start"><b>Quick start</b></a> ·
+  <a href="https://github.com/Sudoo-sh/sudoo.sh#why-sudoosh">Why Sudoo.sh</a> ·
+  <a href="https://github.com/Sudoo-sh/sudoo.sh/tree/main/docs">Documentation</a> ·
+  <a href="https://github.com/Sudoo-sh/sudoo.sh/blob/main/SECURITY.md">Security</a>
+</p>
+
+---
+
+### The problem
+
+Odoo teams rarely need just one test database. Partners want a fresh demo per prospect, developers want every
+feature branch running, trainers want one per class. On hosted platforms each extra staging environment adds to the
+monthly bill, so teams ration them: demos are deleted too early and features share one staging.
+
+### What Sudoo.sh does
+
+- **A running Odoo per branch** in about two minutes: any version from 16.0, Community or Enterprise, or plain Odoo
+  without a repository.
+- **Its own HTTPS link** for every instance, updated on every push through the GitHub App, a webhook or polling.
+- **Idle instances pause themselves** and wake on the next visit, so one ordinary server holds dozens of them.
+- **Daily backups** with one-click restore and rollback, and a lifetime after which demos delete themselves.
+- **Made for teams:** five roles, second factors, an audit log and a signed REST API.
+
+| | Hosted, billed per environment | Sudoo.sh |
+| :--- | :--- | :--- |
+| One more demo or test branch | adds to the monthly bill | costs nothing extra |
+| Environments nobody uses | billed while idle | paused, using no memory |
+| Where your code and data live | the provider's cloud | your server |
+
+### Get started
+
+On Ubuntu 22.04+ or Debian 12+:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/Sudoo-sh/sudoo.sh/main/get.sh | sudo bash
+curl -fsSL https://github.com/Sudoo-sh/sudoo.sh/releases/latest/download/sudoo-install.sh | sudo bash
 ```
 
-- Source: [Sudoo-sh/sudoo.sh](https://github.com/Sudoo-sh/sudoo.sh)
-- Licence: [PolyForm Noncommercial 1.0.0](https://sudoo.sh/legal/license), free for noncommercial use
-- Security: [how the panel is secured](https://docs.sudoo.sh/security)
-- Website: [sudoo.sh](https://sudoo.sh) · Docs: [docs.sudoo.sh](https://docs.sudoo.sh) ·
-  Status: [status.sudoo.sh](https://status.sudoo.sh)
+The installer asks before installing anything, then prints the panel's link and a setup code. To check the script
+before running it, see [Quick start](https://github.com/Sudoo-sh/sudoo.sh#quick-start).
 
-Made by Yousef M. Y. Al Sabbah. Not affiliated with Odoo S.A.
+### Repositories
+
+| | |
+| :--- | :--- |
+| [**sudoo.sh**](https://github.com/Sudoo-sh/sudoo.sh) | The panel: create, update, pause, back up and share Odoo instances |
+| [**sudoo-plugin-sdk**](https://github.com/Sudoo-sh/sudoo-plugin-sdk) | Build plugins for the panel (Apache-2.0) |
+| [**sudoo-plugin-template**](https://github.com/Sudoo-sh/sudoo-plugin-template) | A ready-to-use starting point for a new plugin (MIT-0) |
+
+---
+
+<sub>Free for personal and noncommercial use under the
+<a href="https://github.com/Sudoo-sh/sudoo.sh/blob/main/LICENSE.md">PolyForm Noncommercial 1.0.0</a> licence; companies
+need a commercial licence. For development, demos, tests and training, not production. Made by Yousef M. Y. Al
+Sabbah. Not affiliated with Odoo S.A.; Odoo is a trademark of Odoo S.A.</sub>

@@ -1,3 +1,8 @@
 
 # graphify: the graph is committed, its cache is not
 graphify-out/cache/
+
+# organisation tooling: kept on the owner's computer, never published
+CHROME_PROMPT.md
+ORG_SETTINGS.md
+scripts/

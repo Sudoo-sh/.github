@@ -32,6 +32,9 @@ monthly bill, so teams ration them: demos are deleted too early and features sha
 - **Idle instances pause themselves** and wake on the next visit, so one ordinary server holds dozens of them.
 - **Daily backups** with one-click restore and rollback, and a lifetime after which demos delete themselves.
 - **Made for teams:** five roles, second factors, an audit log and a signed REST API.
+- **Inside your Odoo:** free [apps on the Odoo Apps store](https://apps.odoo.com/apps/modules/browse?author=Sudoo.sh)
+  create a demo from an opportunity, or a test instance from a task or a ticket (Odoo 17.0 to 20.0, English and
+  Arabic).
 
 | | Hosted, billed per environment | Sudoo.sh |
 | :--- | :--- | :--- |
@@ -57,6 +60,7 @@ before running it, see [Quick start](https://github.com/Sudoo-sh/sudoo.sh#quick-
 | [**sudoo.sh**](https://github.com/Sudoo-sh/sudoo.sh) | The panel: create, update, pause, back up and share Odoo instances |
 | [**sudoo-plugin-sdk**](https://github.com/Sudoo-sh/sudoo-plugin-sdk) | Build plugins for the panel (Apache-2.0) |
 | [**sudoo-plugin-template**](https://github.com/Sudoo-sh/sudoo-plugin-template) | A ready-to-use starting point for a new plugin (MIT-0) |
+| [**sudoo-odoo**](https://github.com/Sudoo-sh/sudoo-odoo) | The apps for Odoo: [Instance Manager](https://apps.odoo.com/apps/modules/20.0/sudoo_base), [CRM Demos](https://apps.odoo.com/apps/modules/20.0/sudoo_crm), [Project Tests](https://apps.odoo.com/apps/modules/20.0/sudoo_project), [Helpdesk Tests](https://apps.odoo.com/apps/modules/20.0/sudoo_helpdesk) (free, OPL-1) |
 
 ---
 

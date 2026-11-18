@@ -65,5 +65,5 @@ before running it, see [Quick start](https://github.com/Sudoo-sh/sudoo.sh#quick-
 ---
 
 <sub>Licensed under the <a href="https://sudoo.sh/legal/license">Sudoo.sh Licence Agreement 1.0</a>; use is limited to
-the plans described at <a href="https://sudoo.sh/pricing">sudoo.sh/pricing</a>. For development, demos, tests and training, not production. © 2026 Sudoo.sh.
+the plans described at <a href="https://sudoo.sh/pricing">sudoo.sh/pricing</a>. © 2026 Sudoo.sh.
 Not affiliated with Odoo S.A.; Odoo is a trademark of Odoo S.A.</sub>

@@ -1,4 +1,4 @@
 # The "Sponsor" button on every public Sudoo-sh repository (repositories without their own FUNDING.yml).
-github: [Yosef-AlSabbah]
-buy_me_a_coffee: REPLACE_WITH_BUY_ME_A_COFFEE_NAME
-# custom: ["https://www.paypal.me/REPLACE"]   # added once the PayPal account exists
+buy_me_a_coffee: sudoo
+# github: [Yosef-AlSabbah]   # add once the GitHub Sponsors profile is approved
+# custom: ["https://www.paypal.me/REPLACE"]   # add once the PayPal account exists
